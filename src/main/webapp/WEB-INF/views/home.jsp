@@ -1,10 +1,13 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ page session="false" %>
+<%@ taglib prefix="u" tagdir="/WEB-INF/tags" %>
 <html>
 <head>
 	<title>Home</title>
 </head>
 <body>
+
+<u:topNav />
 <h1>
 	Hello world!  
 </h1>

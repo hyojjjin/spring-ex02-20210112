@@ -33,8 +33,12 @@
 	</logger>
 
 	<!-- Root Logger -->
+	<logger name="jdbc.sqlonly">
+		<level value="info" />
+	</logger>
+	
 	<root>
-		<priority value="warn" />
+		<priority value="info" />
 		<appender-ref ref="console" />
 	</root>
 	
